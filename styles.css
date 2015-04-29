@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	border: 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 4.5em;
+	color: #ffffff;
+	text-shadow: 2px 2px 0px #000000;
+	padding-top: 40px;
+}
+
+.container {
+	background: linear-gradient(to right, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38 );
+}
+
+.content {
+	margin-top: 
+	width: auto 0;
+	max-width: 800px;
+	background-color: black;
+	position: center;
+
+}
+
+ul {
+
+	display: inline;
+	text-decoration: none;
+	list-style: none;
+	padding: 30px;
+	text-align: center;
+}
+
+li {
+	display: inline;
+	border: 60px;
+	background: linear-gradient(#2a2927, #353432);
+}
