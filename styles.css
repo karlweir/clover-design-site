@@ -11,8 +11,8 @@
 
 h1 {
 	font-size: 3.5em;
-	color: #ffffff;
-	text-shadow: 2px 2px 0px #000000;
+	color: #efefef;
+	text-shadow: 2px 2px 0px #3f3e3c;
 	padding: 25px 0;
 }
 
@@ -29,7 +29,21 @@ h1 {
 li {
 	display: inline;
 	margin: 0 10px;
-	color: white;
+}
+
+a:link {
+	text-decoration: none;
+	color: #efefef;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #efefef;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #bcbcbc;
 }
 
 .navigation_divider {
@@ -38,7 +52,7 @@ li {
 }
 
 #content {
-	background-color: #d2d2d2;
+	background-color: #efefef;
 	width: 85%;
 	float: center;
 	margin: 0 auto;
@@ -52,4 +66,23 @@ li {
 	text-align: left;
 	margin-left: 20px;
 	color: #3f3e3c
+}
+
+#site_description {
+	width: 85%;
+	float: center;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 1.5em;
+}
+
+footer {
+	background-color: #efefef;
+	width: 85%;
+	float: center;
+	margin: 20px auto 0 auto;
+	padding: 25px 0;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	color: #3f3e3c;
 }
