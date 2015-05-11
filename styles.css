@@ -14,8 +14,8 @@ h1 {
 	color: #efefef;
 	text-shadow: 2px 2px 0px #3f3e3c;
 	padding: 25px 0;
-	font-family: 'Poiret One', cursive;
-	letter-spacing: 0.2em;
+	font-family: 'Playfair Display SC', serif;
+	letter-spacing: 3px;
 }
 
 
@@ -98,7 +98,7 @@ a:hover {
 
 footer {
 	background-color: #efefef;
-	width: 95%;
+	width: 85%;
 	float: center;
 	margin: 20px auto 0 auto;
 	padding: 25px 0;
