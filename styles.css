@@ -7,6 +7,7 @@
 #container {
 	background: linear-gradient(to right, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38, #4f5937, #555f3c, #525c3a, #535d3a, #505a38 );
 	text-align: center;
+	padding-bottom: 5%;
 }
 
 h1 {
@@ -69,8 +70,6 @@ a:hover {
 	float: center;
 	margin: 0 auto;
 	padding: 25px 0;
-	border-bottom-left-radius: 0.5em;
-	border-bottom-right-radius: 0.5em;
 }
 
 #tel {
@@ -96,13 +95,17 @@ a:hover {
 	max-width: 800px;
 }
 
+form {
+	font-size: 2em;
+}
+
 footer {
-	background-color: #efefef;
+	background: linear-gradient(to bottom, #3c3b39, #242321);
 	width: 85%;
 	float: center;
-	margin: 20px auto 0 auto;
+	margin: 0 auto 50px auto;
 	padding: 25px 0;
-	border-top-left-radius: 0.5em;
-	border-top-right-radius: 0.5em;
-	color: #3f3e3c;
+	border-bottom-left-radius: 0.5em;
+	border-bottom-right-radius: 0.5em;
+	color: #efefef;
 }
