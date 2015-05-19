@@ -41,11 +41,16 @@
 
 			<div id="content">
 
-				<div id="carousel">
-
-					<img src="images/cabinetlarge_01.jpg" />
-
+				<div id="slider">
+					<img id="1" src="images/cabinetlarge_01.jpg" />
+					<img id="2" src="images/whiteradiatorcabinet_01.jpg" />
+					<img id="3" src="images/whiteshelves_01.jpg" />
+					<img id="4" src="images/whitedrawer_02.jpg" />
 				</div>
+
+				<a href="#" class="left" onclick="prev(); return false;">Previous</a>
+				<a href="#" class="right" onclick="next(); return false;">Next</a>
+
 
 				<div id="site_description">
 
@@ -72,9 +77,11 @@
 					<p>Telephone  : 0745 606 3216</p>
 					<p>E-Mail         : steve@cloverdesigns.co.uk</p><br />
 
-					<p>ALL ENQUIRIES WILL BE REPLIED TO WITHIN 48 HOURS - CHECK YOUR SPAM FOLDER IF YOU FEEL YOU HAVEN'T RECEIVED A REPLY</p><br />
-
 					<form>
+
+						<p class="center">ALL ENQUIRIES WILL BE REPLIED TO WITHIN 48 HOURS - CHECK YOUR SPAM FOLDER IF YOU FEEL YOU HAVEN'T RECEIVED A REPLY</p><br />
+
+					
 						
 						<input type=input placeholder="First">
 						<input type=input placeholder="Last">
@@ -94,6 +101,9 @@
 			</footer> <!-- End of footer -->
 
 		</div> <!-- End of container -->
+
+	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/slider.js"></script>
 
 	</body>
 </html>
